@@ -23,9 +23,11 @@
 ```bash
 git clone https://github.com/uthrapathy-m/osm-app.git
 ```bash
+
 ```bash
 cd osm-app
 ```bash
+
 ```bash
 docker build -t osm-app .
 ```bash
