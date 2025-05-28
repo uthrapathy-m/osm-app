@@ -17,25 +17,35 @@
 
 ## 📦 Installation Options
 
-### ✅ Option 1: Run with Docker
+### ✅  Dockerize the Custom Python Application
 
-#### 1. Clone the Repository
-```bash
+#### Step 1. Clone the Repository
+
+```
 git clone https://github.com/uthrapathy-m/osm-app.git
-```bash
+```
 
-```bash
+#### Step 2. Moving to the Project Folder
+
+```
 cd osm-app
-```bash
+```
 
-```bash
+#### Step 3. Building the Docker Image
+
+```
 docker build -t osm-app .
-```bash
-```bash
-docker run -p 7860:7860 osm-app
-```bash
+```
 
-4. Open in Browser
-```bash
+#### Step 4. Running The Container
+
+```
+docker run -p 7860:7860 osm-app
+```
+
+#### Step 5. Open in Browser
+
+```
 Visit: http://localhost:7860
-```bash
+```
+
