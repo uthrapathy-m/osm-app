@@ -1,9 +1,8 @@
-# 🗺️ OSM App – Gradio-based OpenStreetMap Application
+# 🗺️ Python Sample Application
 
 [![Dockerized](https://img.shields.io/badge/dockerized-yes-blue)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-**OSM App** is a Python application that provides an interactive OpenStreetMap interface using [Gradio](https://www.gradio.app/), [Folium](https://python-visualization.github.io/folium/), and [OpenRouteService](https://openrouteservice.org/).
 
 ---
 
@@ -23,14 +22,18 @@
 #### 1. Clone the Repository
 ```bash
 git clone https://github.com/uthrapathy-m/osm-app.git
+```bash
+```bash
 cd osm-app
-
-
+```bash
+```bash
 docker build -t osm-app .
-
-
+```bash
+```bash
 docker run -p 7860:7860 osm-app
-
+```bash
 
 4. Open in Browser
+```bash
 Visit: http://localhost:7860
+```bash
