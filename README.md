@@ -6,7 +6,7 @@
 
 ---
 
-## ✨ Feature
+## ✨ Features
 
 - 🔍 **Autocomplete Search** — Search for any location using Nominatim
 - 🧭 **Smart Travel Mode Routing** — Get routes for driving, cycling, walking, etc.
